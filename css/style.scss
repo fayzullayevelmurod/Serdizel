@@ -113,9 +113,7 @@ header {
     padding: 20px 0;
 
     .main_container {
-        border: 1px solid red;
         @include flex-center();
-        justify-content: space-between;
     }
 
     .mobile_menu {
@@ -127,6 +125,9 @@ header {
         left: 0;
         top: 0;
         height: 100%;
+    }
+    
+    .mobile_menu.active {
         background: rgb(245, 245, 245);
     }
 
@@ -214,3 +215,8 @@ header {
     }
 }
 // header
+
+
+
+
+@import './responsive';
