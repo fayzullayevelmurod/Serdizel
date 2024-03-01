@@ -280,6 +280,35 @@ header {
 }
 // contact
 
+// partner
+.partner {
+    margin-bottom: 100px;
+    h6 {
+        max-width: 675px;
+        color: rgb(28, 33, 44);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    .partner-pagination {
+        margin-top: 20px;
+        @include flex-full-center();
+
+        .swiper-pagination-bullet {
+            width: 9px;
+            height: 9px;
+            background-color: rgb(217, 217, 217);
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: rgb(209, 38, 30); 
+        }
+    }
+}
+// partner
+
 // footer
 footer {
     padding: 48px 0 88px 0;

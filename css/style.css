@@ -219,6 +219,32 @@ header .header_contact span {
   width: 100%;
 }
 
+.partner {
+  margin-bottom: 100px;
+}
+.partner h6 {
+  max-width: 675px;
+  color: rgb(28, 33, 44);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.partner .partner-pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partner .partner-pagination .swiper-pagination-bullet {
+  width: 9px;
+  height: 9px;
+  background-color: rgb(217, 217, 217);
+}
+.partner .partner-pagination .swiper-pagination-bullet-active {
+  background-color: rgb(209, 38, 30);
+}
+
 footer {
   padding: 48px 0 88px 0;
   background: rgb(28, 33, 44);
