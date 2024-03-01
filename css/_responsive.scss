@@ -47,6 +47,42 @@
         }
     }
 
+    .contact {
+
+        iframe {
+            height: 400px;
+        }
+
+        .contact_block {
+            width: 265px;
+            padding: 30px;
+            border-radius: 20px;
+
+            h6 {
+                font-size: 30px;
+                line-height: 36px;
+                margin-bottom: 20px;
+            }
+
+            ul {
+                gap: 15px;
+            }
+
+            address,
+            a,
+            p {
+                font-size: 14px;
+                line-height: 17px;
+            }
+
+            .sign_up {
+                padding: 16px 46px;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+
     footer {
         padding: 38px 0;
 
@@ -109,6 +145,31 @@
 
         .logo {
             margin-left: 60px;
+        }
+    }
+
+    .contact {
+        margin-top: 60px;
+
+        iframe {
+            height: 217px;
+        }
+
+        .main_container {
+            position: static;
+            margin-bottom: 60px;
+        }
+
+        .contact_block {
+            margin-top: 0;
+            border-radius: 0;
+            width: 100%;
+            padding: 0;
+            text-align: center;
+
+            ul {
+                margin: 0 auto;
+            }
         }
     }
 
