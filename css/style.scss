@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Noi Grotesk Fix';
+    src: url(../fonts/Grotesk/NoiGroteskFix-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Noi Grotesk Fix';
+    src: url(../fonts/Grotesk/NoiGroteskFix-Regular.ttf);
+    font-weight: 400;
+}
+// mixin
+@mixin flex-full-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-full-stretch {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+@mixin flex-column {
+    flex-direction: column;
+}
+
+@mixin flex-start {
+    display: flex;
+    align-items: start;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+
+@mixin transition {
+    transition: .2s ease;
+}
+// mixin
+
+// fonts
+$font-Roboto: "Roboto", sans-serif;
+$font-Grotesk: "Noi Grotesk Fix", sans-serif;
+// fonts
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+a:hover {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+span, label {
+    display: inline-block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-Grotesk;
+    font-style: normal;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    outline: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main_container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+// header
+header {
+    margin-bottom: 200px;
+    position: relative;
+    padding: 20px 0;
+
+    .main_container {
+        border: 1px solid red;
+        @include flex-center();
+        justify-content: space-between;
+    }
+
+    .mobile_menu {
+        width: 66px;
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: rgb(245, 245, 245);
+    }
+
+    .menu_burger {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        flex-direction: column;
+        gap: 9px;
+
+        span {
+            height: 3px;
+            width: 30px;
+            background-color: #1C212C;
+            border-radius: 12px;
+            @include transition();
+        }
+    }
+
+    .menu_burger.active {
+        .one {
+            transform: rotate(45deg) translateY(5px) translateX(4px);
+        }
+        .two {
+            transform: rotate(-47deg) translateY(-4px) translateX(3px);
+        }
+    }
+
+    .mobile_link {
+        overflow: hidden;
+        background: rgb(245, 245, 245);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 137px;
+        z-index: 3;
+        height: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        @include transition();
+    }
+    
+    .mobile_link.active {
+        height: auto;
+        padding: 20px 0 30px 0;
+    }
+
+    .nav_link {
+        margin-left: 160px;
+        @include flex-center();
+        gap: 50px;
+
+        a {
+            color: rgb(28, 33, 44);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+        }
+    }
+
+    .header_contact {
+        margin-left: auto;
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        a {
+            color: rgb(209, 38, 30);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+        }
+
+        span {
+            margin-right: 5px;
+            display: block;
+            color: rgb(28, 33, 44);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            text-decoration-line: underline;
+        }
+    }
+}
+// header
