@@ -249,6 +249,65 @@ header .header_contact span {
   text-decoration-line: underline;
 }
 
+.about {
+  margin: 100px 0;
+  padding: 100px 0;
+  background: rgb(245, 245, 245);
+}
+.about .about_top {
+  margin-bottom: 100px;
+}
+.about .about_top h3 {
+  display: none;
+  color: rgb(28, 33, 44);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about .about_top .about_top_in {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.about .about_top .about_top_right {
+  flex: 1;
+}
+.about .about_top .about_top_left {
+  flex: 1;
+}
+.about .about_top h6 {
+  color: rgb(28, 33, 44);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 14px;
+}
+.about .about_top p {
+  color: rgb(28, 33, 44);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.about .about_top a {
+  margin-top: 10px;
+  color: rgb(209, 38, 30);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-decoration-line: underline;
+}
+.about .about_bottom h3 {
+  color: rgb(28, 33, 44);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+
 .order_service {
   margin: 100px 0;
 }
