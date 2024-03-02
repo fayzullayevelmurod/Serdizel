@@ -231,6 +231,60 @@ header .header_contact span {
   opacity: 0.5;
 }
 
+.reviews h6 {
+  color: rgb(28, 33, 44);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+.reviews .reviews_card {
+  padding: 30px;
+  border-radius: 20px;
+  background: rgb(245, 245, 245);
+}
+.reviews .reviews_card h6 {
+  color: rgb(28, 33, 44);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.reviews .reviews_card p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  color: rgb(28, 33, 44);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+.reviews .reviews_card a {
+  color: rgb(28, 33, 44);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  opacity: 0.5;
+  text-decoration-line: underline;
+}
+.reviews .reviews-pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews .reviews-pagination .swiper-pagination-bullet {
+  width: 9px;
+  height: 9px;
+  background-color: rgb(217, 217, 217);
+}
+.reviews .reviews-pagination .swiper-pagination-bullet-active {
+  background-color: rgb(209, 38, 30);
+}
+
 .contact .main_container {
   width: 100%;
   margin: 0 auto;
@@ -475,6 +529,10 @@ footer .footer_contact address {
     font-size: 30px;
     line-height: 36px;
   }
+  .reviews h6 {
+    font-size: 30px;
+    line-height: 36px;
+  }
   footer {
     padding: 38px 0;
   }
@@ -524,6 +582,32 @@ footer .footer_contact address {
   }
   header .logo {
     margin-left: 60px;
+  }
+  .reviews h6 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .reviews .reviewsSwiper {
+    overflow: visible;
+  }
+  .reviews .reviews_card {
+    padding: 20px;
+  }
+  .reviews .reviews_card h6 {
+    height: 38px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+  .reviews .reviews_card p {
+    -webkit-line-clamp: 9;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .reviews .reviews_card a {
+    font-size: 14px;
+    line-height: 17px;
   }
   .contact {
     margin-top: 60px;

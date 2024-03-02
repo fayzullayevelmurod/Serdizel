@@ -1,5 +1,6 @@
 // partnerslider
 var swiper = new Swiper(".partnerSwiper", {
+    spaceBetween: 10,
     pagination: {
         el: ".partner-pagination",
         clickable: true,
@@ -15,6 +16,30 @@ var swiper = new Swiper(".partnerSwiper", {
         },
         1024: {
             slidesPerView: 6,
+            spaceBetween: 20,
+        },
+    },
+});
+// partnerslider
+
+// partnerslider
+var swiper = new Swiper(".reviewsSwiper", {
+    spaceBetween: 10,
+    pagination: {
+        el: ".reviews-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        360: {
+            slidesPerView: 2.25,
+            spaceBetween: 10,
+        },
+        650: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 4,
             spaceBetween: 20,
         },
     },
