@@ -215,6 +215,8 @@ header .header_contact span {
 .contact iframe {
   position: relative;
   z-index: 2;
+  border: none !important;
+  box-shadow: none !important;
   height: 500px;
   width: 100%;
 }
@@ -371,6 +373,10 @@ footer .footer_contact address {
     font-size: 14px;
     line-height: 17px;
   }
+  .partner h6 {
+    font-size: 30px;
+    line-height: 36px;
+  }
   footer {
     padding: 38px 0;
   }
@@ -440,6 +446,13 @@ footer .footer_contact address {
   }
   .contact .contact_block ul {
     margin: 0 auto;
+  }
+  .partner {
+    margin-bottom: 60px;
+  }
+  .partner h6 {
+    font-size: 24px;
+    line-height: 29px;
   }
   footer {
     padding: 30px 0 57px 0;
