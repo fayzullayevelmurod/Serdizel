@@ -165,6 +165,72 @@ header .header_contact span {
   text-decoration-line: underline;
 }
 
+.order_service {
+  margin: 100px 0;
+}
+.order_service .order_service_in {
+  padding: 50px 60px 60px 60px;
+  border-radius: 40px;
+  background: rgb(209, 38, 30);
+}
+.order_service h6 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.order_service p {
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.order_service form {
+  display: flex;
+  gap: 30px;
+}
+.order_service form input,
+.order_service form button {
+  flex: 1;
+  height: 50px;
+  border-radius: 50px;
+}
+.order_service form input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid rgb(217, 217, 217);
+  background: rgb(255, 255, 255);
+  color: rgb(28, 33, 44);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.order_service form input::-moz-placeholder {
+  opacity: 0.7;
+}
+.order_service form input::placeholder {
+  opacity: 0.7;
+}
+.order_service form button {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  background: rgb(28, 33, 44);
+}
+.order_service span {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  opacity: 0.5;
+}
+
 .contact .main_container {
   width: 100%;
   margin: 0 auto;
@@ -373,6 +439,38 @@ footer .footer_contact address {
     font-size: 14px;
     line-height: 17px;
   }
+  .order_service {
+    margin: 80px 0;
+    padding: 45px 0;
+    background: rgb(209, 38, 30);
+  }
+  .order_service .order_service_in {
+    padding: 0;
+    background: transparent;
+  }
+  .order_service h6 {
+    font-size: 30px;
+    max-width: 430px;
+    margin: 0 auto 10px auto;
+    line-height: 36px;
+  }
+  .order_service p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .order_service form {
+    gap: 20px;
+  }
+  .order_service form input,
+  .order_service form button {
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .order_service span {
+    font-size: 12px;
+    line-height: 14px;
+  }
   .partner h6 {
     font-size: 30px;
     line-height: 36px;
@@ -446,6 +544,29 @@ footer .footer_contact address {
   }
   .contact .contact_block ul {
     margin: 0 auto;
+  }
+  .order_service {
+    margin: 60px 0;
+    padding: 40px 0;
+  }
+  .order_service h6 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .order_service p {
+    margin-bottom: 10px;
+  }
+  .order_service form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .order_service form input,
+  .order_service form button {
+    flex: auto;
+  }
+  .order_service form button {
+    display: block;
+    height: 40px;
   }
   .partner {
     margin-bottom: 60px;
