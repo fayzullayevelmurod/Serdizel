@@ -57,3 +57,27 @@ menu_burger.addEventListener('click', () => {
     mobile_menu.classList.toggle('active')
 })
 // burger
+
+// modal
+let sign_up = document.querySelectorAll('.sign_up');
+let modal_bg = document.querySelector('.modal_bg');
+let modal = document.querySelector('.modal');
+let modal_close = document.querySelector('.modal_close');
+
+sign_up.forEach(btn => {
+    btn.addEventListener('click', () => {
+        modal.classList.toggle('active')
+        modal_bg.classList.toggle('active')
+    })
+})
+
+modal_bg.addEventListener('click', () => {
+    modal.classList.remove('active')
+    modal_bg.classList.remove('active')
+})
+
+modal_close.addEventListener('click', () => {
+    modal.classList.remove('active')
+    modal_bg.classList.remove('active')
+})
+// modal
