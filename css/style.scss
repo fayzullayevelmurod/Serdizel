@@ -200,7 +200,6 @@ address {
 
 // header
 header {
-    margin-bottom: 200px;
     position: relative;
     padding: 20px 0;
 
@@ -307,6 +306,92 @@ header {
     }
 }
 // header
+
+// home 
+.home {
+    .home_in {
+        display: flex;
+        align-items: stretch;
+        gap: 20px;
+
+    }
+
+    .home_left {
+        overflow: hidden;
+        position: relative;
+        flex: 4;
+        padding: 92px 60px;
+        border-radius: 40px;
+        background: rgb(28, 33, 44);
+    }
+
+    .home_right {
+        flex: 1;
+        border-radius: 40px;
+        padding: 40px 48px;
+        background: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        p {
+            margin-top: 10px;
+            color: rgb(28, 33, 44);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+        }
+    }
+
+    .home_text {
+        h3 {
+            max-width: 480px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            color: white;
+            margin-bottom: 50px;
+
+            span {
+                color: rgb(209, 38, 30);
+            }
+        }
+
+        button {
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            width: 212px;
+            height: 60px;
+            border-radius: 60px;
+            background: rgb(209, 38, 30);
+        }
+    }
+
+    .home_dektop_img {
+        position: absolute;
+        right: -260px;
+        bottom: -10px;
+    }
+
+    .about_bottom_img_media {
+        display: none;
+    }
+
+    .home_circle {
+        border: 1px solid red;
+        position: absolute;
+        top: -24px;
+        right: -133px;
+        width: 462px;
+        height: 462px;
+        filter: blur(350px);
+        background: rgb(217, 217, 217);
+        opacity: 0.5;
+    }
+}
+// home 
 
 // about
 .about {
