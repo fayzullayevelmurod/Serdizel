@@ -222,6 +222,54 @@
             }
         }
     }
+    
+    .work_cost {
+
+        h6 {
+            font-size: 30px;
+            line-height: 36px;
+            margin-bottom: 30px;
+        }
+
+        .work_cost_in {
+            li {
+                padding: 10px;
+            }
+
+            p {
+                width: 200px;
+                font-size: 14px;
+                line-height: 17px;
+            }
+
+            del {
+                width: 77px;
+                font-size: 14px;
+                line-height: 17px;
+            }
+
+            .cost {
+                gap: 50px;  
+            }
+
+            a {
+                font-size: 14px;
+                line-height: 17px;
+            }
+
+            h6 {
+                width: 77px;
+                margin-right: 50px;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+
+        .work_btn {
+            margin: 20px auto 0 auto;
+            height: 50px;
+        }
+    }
 
     footer {
         padding: 38px 0;
@@ -310,6 +358,31 @@
 
         .logo {
             margin-left: 60px;
+        }
+    }
+
+    .work_cost {
+
+        h6 {
+            font-size: 24px;
+            line-height: 29px;
+            margin-bottom: 22px;
+        }
+
+        .work_cost_in {
+            .cost {
+                flex-direction: column;
+                align-items: start;
+                gap: 0;
+            }
+
+            h6 {
+                margin-right: 40px;
+            }
+
+            p {
+                width: 146px;
+            }
         }
     }
 
