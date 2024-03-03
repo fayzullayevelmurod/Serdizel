@@ -196,6 +196,7 @@
 
                 button {
                     margin: 0 auto;
+                    font-size: 16px;
                     height: 50px;
                     width: 260px;
                 }
@@ -268,6 +269,8 @@
         .work_btn {
             margin: 20px auto 0 auto;
             height: 50px;
+            width: 195px;
+            font-size: 16px;
         }
     }
 
@@ -383,6 +386,10 @@
             p {
                 width: 146px;
             }
+        }
+
+        .work_btn {
+            font-size: 14px;
         }
     }
 
@@ -534,6 +541,11 @@
                     }
                 }
             }
+            .about_bottom_right {
+                button {
+                    font-size: 14px;
+                }
+            }
         }
     }
 
@@ -581,6 +593,14 @@
 
         .mobile_menu {
             width: 55px;
+        }
+    }
+
+    .work_cost {
+        .work_cost_in {
+            h6 {
+                margin-right: 15px;
+            }
         }
     }
 }

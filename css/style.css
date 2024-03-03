@@ -876,6 +876,7 @@ footer .footer_contact address {
   }
   .about .about_bottom .about_bottom_right button {
     margin: 0 auto;
+    font-size: 16px;
     height: 50px;
     width: 260px;
   }
@@ -929,6 +930,8 @@ footer .footer_contact address {
   .work_cost .work_btn {
     margin: 20px auto 0 auto;
     height: 50px;
+    width: 195px;
+    font-size: 16px;
   }
   footer {
     padding: 38px 0;
@@ -1015,6 +1018,9 @@ footer .footer_contact address {
   }
   .work_cost .work_cost_in p {
     width: 146px;
+  }
+  .work_cost .work_btn {
+    font-size: 14px;
   }
   .reviews h6 {
     font-size: 24px;
@@ -1132,6 +1138,9 @@ footer .footer_contact address {
   .about .about_bottom .about_bottom_left .about_card p {
     max-width: 290px;
   }
+  .about .about_bottom .about_bottom_right button {
+    font-size: 14px;
+  }
   footer {
     padding: 30px 0 57px 0;
   }
@@ -1167,5 +1176,8 @@ footer .footer_contact address {
   }
   header .mobile_menu {
     width: 55px;
+  }
+  .work_cost .work_cost_in h6 {
+    margin-right: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
