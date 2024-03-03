@@ -396,11 +396,18 @@ header {
             gap: 20px;
             flex: 1;
 
-            img {
+            .about_bottom_img_desktop {
                 border-radius: 20px;
                 width: 100%;
                 object-fit: cover;
                 height: 100%;
+            }
+
+            .about_bottom_img_media {
+                display: none;
+                border-radius: 20px;
+                width: 100%;
+                object-fit: cover;
             }
 
             button {

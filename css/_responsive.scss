@@ -138,6 +138,91 @@
         }
     }
 
+    .about {
+        padding: 80px 0 ;
+        margin: 80px 0;
+
+        .about_top {
+            margin-bottom: 70px;
+
+            h3 {
+                display: block;
+            }
+
+            .about_top_in {
+                gap: 20px;
+            }
+        }
+
+        .about_top_right {
+
+            h6 {
+                display: none;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 17px;
+            }
+
+            .about_text_end {
+                display: none;
+            }
+        }
+
+        .about_bottom_in {
+            align-items: start;
+        }
+
+        .about_bottom {
+            h3 {
+                font-size: 30px;
+                line-height: 36px;
+                margin-bottom: 30px;
+            }
+
+            .about_bottom_in {
+                flex-direction: column;
+            }
+
+            .about_bottom_right {
+                .about_bottom_img_desktop {
+                    display: none;
+                }
+
+                .about_bottom_img_media {
+                    display: block;
+                }
+
+                button {
+                    margin: 0 auto;
+                    height: 50px;
+                    width: 260px;
+                }
+            }
+
+            .about_card {
+                padding: 20px;
+
+                img {
+                    height: 110px;
+                }
+
+                h6 {
+                    font-size: 16px;
+                    line-height: 19px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    max-width: 195px;
+                    font-size: 14px;
+                    line-height: 17px;
+                }
+            }
+        }
+    }
+
     footer {
         padding: 38px 0;
 
@@ -320,6 +405,62 @@
         h6 {
             font-size: 24px;
             line-height: 29px;
+        }
+    }
+
+    .about {
+        padding: 60px 0;
+        margin: 60px 0;
+
+        .about_top {
+            margin-bottom: 50px;
+            .about_top_in {
+                flex-direction: column-reverse;
+            }
+
+            .about_bottom_left,
+            .about_bottom_right {
+                flex: auto;
+                width: 100%;
+            }
+            
+            .about_bottom_left {
+                img {
+                    width: 100%;
+                }
+            }
+
+
+            h3 {
+                font-size: 24px;
+                line-height: 29px;
+            }
+
+        }
+
+        .about_bottom {
+            h3 {
+                font-size: 24px;
+                line-height: 29px;
+                margin-bottom: 20px;
+            }
+
+            .about_bottom_in {
+                gap: 10px;
+            }
+
+            .about_bottom_left {
+                gap: 10px;
+                flex-direction: column;
+
+                .about_card {
+                    width: 100%;
+
+                    p {
+                        max-width: 290px;
+                    }
+                }
+            }
         }
     }
 

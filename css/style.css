@@ -324,12 +324,19 @@ header .header_contact span {
   gap: 20px;
   flex: 1;
 }
-.about .about_bottom .about_bottom_right img {
+.about .about_bottom .about_bottom_right .about_bottom_img_desktop {
   border-radius: 20px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+}
+.about .about_bottom .about_bottom_right .about_bottom_img_media {
+  display: none;
+  border-radius: 20px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .about .about_bottom .about_bottom_right button {
   width: 100%;
@@ -754,6 +761,67 @@ footer .footer_contact address {
     font-size: 30px;
     line-height: 36px;
   }
+  .about {
+    padding: 80px 0;
+    margin: 80px 0;
+  }
+  .about .about_top {
+    margin-bottom: 70px;
+  }
+  .about .about_top h3 {
+    display: block;
+  }
+  .about .about_top .about_top_in {
+    gap: 20px;
+  }
+  .about .about_top_right h6 {
+    display: none;
+  }
+  .about .about_top_right p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .about .about_top_right .about_text_end {
+    display: none;
+  }
+  .about .about_bottom_in {
+    align-items: start;
+  }
+  .about .about_bottom h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+  .about .about_bottom .about_bottom_in {
+    flex-direction: column;
+  }
+  .about .about_bottom .about_bottom_right .about_bottom_img_desktop {
+    display: none;
+  }
+  .about .about_bottom .about_bottom_right .about_bottom_img_media {
+    display: block;
+  }
+  .about .about_bottom .about_bottom_right button {
+    margin: 0 auto;
+    height: 50px;
+    width: 260px;
+  }
+  .about .about_bottom .about_card {
+    padding: 20px;
+  }
+  .about .about_bottom .about_card img {
+    height: 110px;
+  }
+  .about .about_bottom .about_card h6 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+  .about .about_bottom .about_card p {
+    max-width: 195px;
+    font-size: 14px;
+    line-height: 17px;
+  }
   footer {
     padding: 38px 0;
   }
@@ -899,6 +967,46 @@ footer .footer_contact address {
   .partner h6 {
     font-size: 24px;
     line-height: 29px;
+  }
+  .about {
+    padding: 60px 0;
+    margin: 60px 0;
+  }
+  .about .about_top {
+    margin-bottom: 50px;
+  }
+  .about .about_top .about_top_in {
+    flex-direction: column-reverse;
+  }
+  .about .about_top .about_bottom_left,
+  .about .about_top .about_bottom_right {
+    flex: auto;
+    width: 100%;
+  }
+  .about .about_top .about_bottom_left img {
+    width: 100%;
+  }
+  .about .about_top h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .about .about_bottom h3 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .about .about_bottom .about_bottom_in {
+    gap: 10px;
+  }
+  .about .about_bottom .about_bottom_left {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .about .about_bottom .about_bottom_left .about_card {
+    width: 100%;
+  }
+  .about .about_bottom .about_bottom_left .about_card p {
+    max-width: 290px;
   }
   footer {
     padding: 30px 0 57px 0;
