@@ -397,7 +397,8 @@ header {
 
 // home_under
 .home_under {
-
+    margin-bottom: 100px;
+    
     .main_container {
         display: flex;
         align-items: stretch;
@@ -407,6 +408,7 @@ header {
     .home_under_card {
 
         &__left {
+            position: relative;
             flex: 1;
             padding: 30px;
             border-radius: 20px;
@@ -435,9 +437,16 @@ header {
                     opacity: 0.5;
                 }
             }
+
+            img {
+                position: absolute;
+                bottom: 5px;
+                right: 10px;
+            }
         }
         
         &__right {
+            position: relative;
             flex: 1;
             padding: 30px;
             border-radius: 20px;
@@ -464,6 +473,12 @@ header {
                     line-height: 19px;
                     opacity: 0.5;
                 }
+            }
+
+            img {
+                position: absolute;
+                bottom: 5px;
+                right: 10px;
             }
         }
     }

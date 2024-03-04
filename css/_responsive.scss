@@ -1,3 +1,64 @@
+@media only screen and (max-width: 1160px) {
+    .home {
+        .home_left {
+            padding: 40px 40px 60px 40px;
+            border-radius: 20px;
+
+            img {
+                width: 446px;
+                height: 257px;
+                right: -185px;
+            }
+
+            .home_text  {
+                h3 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    margin-bottom: 40px;
+                }
+
+                button {
+                    width: 152px;
+                    height: 50px;
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+        .home_right {
+            border-radius: 20px;
+            padding: 20px;
+            gap: 30px;
+            flex-direction: row;
+        }
+
+        .home_in {
+            flex-direction: column;
+        }
+
+        .home_right_card {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            p {
+                margin-top: 0;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+
+        .card_two {
+            flex: 2;
+        }
+
+        .card_one {
+            flex: 1;
+        }
+    }
+}
+
 @media only screen and (max-width: 993px) {
     .main_container {
         padding: 0 60px;
@@ -274,6 +335,34 @@
         }
     }
 
+    .home_under {
+        .home_under_card__left,
+        .home_under_card__right {
+            padding: 20px;
+            h6 {
+                font-size: 16px;
+                line-height: 19px;
+                margin-bottom: 10px;
+            }
+            
+            ul {
+                gap: 10px;
+                max-width: 178px;
+
+                li {
+                    font-size: 14px;
+                    line-height: 17px;
+                }
+            }
+
+            img {
+                height: 100px;
+                right: 0;
+                bottom: 10px;
+            }
+        }
+    }
+
     footer {
         padding: 38px 0;
 
@@ -361,6 +450,21 @@
 
         .logo {
             margin-left: 60px;
+        }
+    }
+
+    .home_under {
+        .main_container {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .home_under_card__left,
+        .home_under_card__right {
+            ul {
+                margin-right: 100px;
+                max-width: 280px;
+            }
         }
     }
 
