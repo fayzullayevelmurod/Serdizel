@@ -309,6 +309,8 @@ header {
 
 // home 
 .home {
+    margin-bottom: 40px;
+
     .home_in {
         display: flex;
         align-items: stretch;
@@ -392,6 +394,81 @@ header {
     }
 }
 // home 
+
+// home_under
+.home_under {
+
+    .main_container {
+        display: flex;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .home_under_card {
+
+        &__left {
+            flex: 1;
+            padding: 30px;
+            border-radius: 20px;
+            background: rgb(245, 245, 245);
+            
+            h6 {
+                color: rgb(28, 33, 44);
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                margin-bottom: 17px;
+            }
+            
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding-left: 20px;
+
+                li {
+                    list-style-type: disc;
+                    color: rgb(28, 33, 44);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    opacity: 0.5;
+                }
+            }
+        }
+        
+        &__right {
+            flex: 1;
+            padding: 30px;
+            border-radius: 20px;
+            background: rgb(209, 38, 30);
+
+            h6 {
+                margin-bottom: 17px;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding-left: 20px;
+                li {
+                    list-style-type: disc;
+                    color: rgb(255, 255, 255);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+// home_under
 
 // about
 .about {
