@@ -484,6 +484,85 @@ header {
 }
 // home_under
 
+// services
+.services {
+    h3 {
+        color: rgb(28, 33, 44);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    .services_in {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+    }
+
+    .services_left {
+        border: 1px solid red;
+        display: flex;
+        gap: 20px;
+
+        .services_cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+
+            .services_card {
+                flex: 1;
+            }
+        }
+    }
+
+    .services_card {
+        border-radius: 20px;
+        background: rgb(245, 245, 245);
+    }
+
+    .serives_card_text {
+        p {
+            color: rgb(28, 33, 44);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+        }
+
+        h6 {
+            color: rgb(209, 38, 30);
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            margin-bottom: 2px;
+        }
+
+        a {
+            color: rgb(28, 33, 44);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            text-decoration-line: underline;
+            opacity: 0.5;
+        }
+    }
+
+    .services_cards {
+        .services_card {
+            padding: 30px;
+            position: relative;
+
+            img {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+}
+// services
+
 // about
 .about {
     margin: 100px 0;

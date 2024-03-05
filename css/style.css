@@ -395,6 +395,67 @@ header .header_contact span {
   right: 10px;
 }
 
+.services h3 {
+  color: rgb(28, 33, 44);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.services .services_in {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+.services .services_left {
+  border: 1px solid red;
+  display: flex;
+  gap: 20px;
+}
+.services .services_left .services_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.services .services_left .services_cards .services_card {
+  flex: 1;
+}
+.services .services_card {
+  border-radius: 20px;
+  background: rgb(245, 245, 245);
+}
+.services .serives_card_text p {
+  color: rgb(28, 33, 44);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.services .serives_card_text h6 {
+  color: rgb(209, 38, 30);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 2px;
+}
+.services .serives_card_text a {
+  color: rgb(28, 33, 44);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration-line: underline;
+  opacity: 0.5;
+}
+.services .services_cards .services_card {
+  padding: 30px;
+  position: relative;
+}
+.services .services_cards .services_card img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .about {
   margin: 100px 0;
   padding: 100px 0;
