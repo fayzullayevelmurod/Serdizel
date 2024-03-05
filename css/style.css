@@ -395,6 +395,9 @@ header .header_contact span {
   right: 10px;
 }
 
+.services {
+  margin-bottom: 100px;
+}
 .services h3 {
   color: rgb(28, 33, 44);
   font-size: 40px;
@@ -407,21 +410,47 @@ header .header_contact span {
   gap: 20px;
   align-items: stretch;
 }
-.services .services_left {
-  border: 1px solid red;
+.services .big_card {
+  flex: 1;
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.services .services_left .services_cards {
+.services .big_card .serives_card_text {
+  padding: 30px 30px 0 30px;
+}
+.services .big_card .serives_card_text p {
+  max-width: 166px;
+  margin-bottom: 40px;
+}
+.services .services_cards {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
 }
-.services .services_left .services_cards .services_card {
+.services .services_cards .services_card {
   flex: 1;
 }
+.services .services_cards .services_card p {
+  max-width: 166px;
+}
+.services .services_cards .services_card .img_two {
+  bottom: 20px;
+}
+.services .services_left {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
+.services .services_right {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
 .services .services_card {
+  overflow: hidden;
   border-radius: 20px;
   background: rgb(245, 245, 245);
 }
@@ -436,6 +465,7 @@ header .header_contact span {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  margin-bottom: 2px;
   margin-bottom: 2px;
 }
 .services .serives_card_text a {
@@ -454,6 +484,12 @@ header .header_contact span {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.services .services_cards .serives_card_text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .about {
@@ -979,6 +1015,27 @@ footer .footer_contact address {
   .home .card_one {
     flex: 1;
   }
+  .services {
+    margin-bottom: 80px;
+  }
+  .services h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .services .services_in {
+    flex-direction: column;
+  }
+  .services .services_cards .services_card {
+    padding: 20px;
+  }
+  .services .services_cards .services_card p,
+  .services .services_cards .services_card a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .services .big_card .serives_card_text {
+    padding: 20px 20px 0 20px;
+  }
 }
 @media only screen and (max-width: 993px) {
   .main_container {
@@ -1186,6 +1243,9 @@ footer .footer_contact address {
     width: 195px;
     font-size: 16px;
   }
+  .home_under {
+    margin-bottom: 80px;
+  }
   .home_under .home_under_card__left,
   .home_under .home_under_card__right {
     padding: 20px;
@@ -1348,6 +1408,9 @@ footer .footer_contact address {
   .home .home_right_card img {
     width: 36px;
     height: 36px;
+  }
+  .home_under {
+    margin-bottom: 60px;
   }
   .home_under .main_container {
     flex-direction: column;

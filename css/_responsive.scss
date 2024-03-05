@@ -57,6 +57,35 @@
             flex: 1;
         }
     }
+
+    .services {
+        margin-bottom: 80px;
+        h3 {
+            font-size: 30px;
+            line-height: 36px;
+        }
+
+        .services_in {
+            flex-direction: column;
+        }
+
+        .services_cards {
+            .services_card {
+                padding: 20px;
+                p,
+                a {
+                    font-size: 14px;
+                    line-height: 17px;
+                }
+            }
+        }
+
+        .big_card {
+            .serives_card_text {
+                padding: 20px 20px 0 20px;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 993px) {
@@ -336,6 +365,7 @@
     }
 
     .home_under {
+        margin-bottom: 80px;
         .home_under_card__left,
         .home_under_card__right {
             padding: 20px;
@@ -535,6 +565,7 @@
     }
 
     .home_under {
+        margin-bottom: 60px;
         .main_container {
             flex-direction: column;
             gap: 10px;
