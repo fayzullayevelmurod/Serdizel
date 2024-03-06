@@ -22,6 +22,30 @@ var swiper = new Swiper(".partnerSwiper", {
 });
 // partnerslider
 
+// enginesslider
+var swiper = new Swiper(".enginesSwiper", {
+    spaceBetween: 10,
+    pagination: {
+        el: ".engines-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        360: {
+            slidesPerView: 1.10,
+            spaceBetween: 10,
+        },
+        650: {
+            slidesPerView: 1.20,
+            spaceBetween: 10,
+        },
+        1024: {
+            slidesPerView: 1.65,
+            spaceBetween: 20,
+        },
+    },
+});
+// enginesslider
+
 // partnerslider
 var swiper = new Swiper(".reviewsSwiper", {
     spaceBetween: 10,
