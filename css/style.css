@@ -839,6 +839,9 @@ header .header_contact span {
   border-radius: 40px;
   background: rgb(245, 245, 245);
 }
+.engines_work .engines_card .engines_card_text {
+  margin-right: 300px;
+}
 .engines_work .engines_card img {
   position: absolute;
   right: -120px;
@@ -1364,6 +1367,43 @@ footer .footer_contact address {
     right: 0;
     bottom: 10px;
   }
+  .engines_work h3 {
+    margin: 80px 0 30px 0;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 448px;
+  }
+  .engines_work .engines_card {
+    border-radius: 20px;
+    height: 100%;
+    padding: 20px;
+  }
+  .engines_work .engines_card h6 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 20px 0;
+  }
+  .engines_work .engines_card .engines_card_text {
+    margin-right: 150px;
+  }
+  .engines_work .engines_card .title_30 {
+    margin: 0 0 10px 0;
+  }
+  .engines_work .engines_card span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .engines_work .engines_card .brands {
+    gap: 10px;
+  }
+  .engines_work .engines_card a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .engines_work .engines_card img {
+    height: 90%;
+    right: -185px;
+  }
   footer {
     padding: 38px 0;
   }
@@ -1437,6 +1477,23 @@ footer .footer_contact address {
     width: 390px;
     right: -58px;
     height: auto;
+  }
+  .engines_work .engines_card {
+    height: 543px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .engines_work .engines_card .engines_card_text {
+    margin-right: 0;
+  }
+  .engines_work .engines_card img {
+    margin: 0 auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 380px;
+    height: 280px;
+    position: static;
   }
 }
 @media only screen and (max-width: 650px) {
