@@ -39,7 +39,7 @@ var swiper = new Swiper(".enginesSwiper", {
             spaceBetween: 10,
         },
         1024: {
-            slidesPerView: 1.65,
+            slidesPerView: 1.35,
             spaceBetween: 20,
         },
     },
