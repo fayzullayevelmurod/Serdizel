@@ -1017,6 +1017,7 @@ header {
             font-weight: 700;
             line-height: 36px;
             margin-bottom: 40px;
+            text-transform: capitalize !important;
         }
 
         .brands {
@@ -1036,8 +1037,29 @@ header {
             line-height: 19px;
         }
 
+        .title_30 {
+            margin: 0 0 20px 40px;
+        }
+
+        span {
+            color: rgb(28, 33, 44);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            opacity: 0.5;
+            margin-top: 15px;
+        }
+
         .mini_text {
             max-width: 227px;
+        }
+
+        .mini_text2 {
+            max-width: 300px;
+        }
+
+        .mini_text3 {
+            max-width: 350px;
         }
 
         .middle_text {
@@ -1046,6 +1068,14 @@ header {
 
         .long_text {
             max-width: 520px;
+        }
+
+        .mini_gap {
+            gap: 10px;
+
+            a {
+                padding: 10px 15px;
+            }
         }
     }
 
