@@ -1376,7 +1376,7 @@ footer .footer_contact address {
   }
   .engines_work .engines_card {
     border-radius: 20px;
-    height: 100%;
+    height: 318px;
     padding: 20px;
   }
   .engines_work .engines_card h6 {
@@ -1479,14 +1479,22 @@ footer .footer_contact address {
     right: -58px;
     height: auto;
   }
+  .engines_work h3 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 40px 0 20px 0;
+  }
   .engines_work .engines_card {
-    height: 543px;
+    height: 613px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   .engines_work .engines_card .engines_card_text {
     margin-right: 0;
+  }
+  .engines_work .engines_card a {
+    padding: 10px 15px;
   }
   .engines_work .engines_card img {
     margin: 0 auto;
@@ -1495,6 +1503,10 @@ footer .footer_contact address {
     width: 380px;
     height: 280px;
     position: static;
+  }
+  .engines_work .engines-pagination .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
   }
 }
 @media only screen and (max-width: 650px) {
