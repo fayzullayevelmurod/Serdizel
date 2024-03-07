@@ -692,6 +692,20 @@ header .header_contact span {
   text-decoration: underline;
   opacity: 0.5;
 }
+.work_cost .list_more {
+  transition: 0.2s ease;
+  overflow: hidden;
+  height: 0;
+}
+.work_cost .list_more li:nth-child(even) {
+  background: rgb(245, 245, 245);
+}
+.work_cost .list_more li:nth-child(odd) {
+  background: white;
+}
+.work_cost .list_more.active {
+  height: auto;
+}
 .work_cost .work_btn {
   margin: 40px auto 0 auto;
   display: flex;

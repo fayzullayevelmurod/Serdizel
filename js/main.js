@@ -98,6 +98,15 @@ menu_burger.addEventListener('click', () => {
 })
 // burger
 
+// work
+let work_btn = document.querySelector('.work_btn');
+let list_more = document.querySelector('.list_more');
+
+work_btn.addEventListener('click', () => {
+    list_more.classList.toggle('active')
+})
+// work
+
 // modal
 let sign_up = document.querySelectorAll('.sign_up');
 let modal_bg = document.querySelector('.modal_bg');
