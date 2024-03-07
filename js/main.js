@@ -46,6 +46,22 @@ var swiper = new Swiper(".enginesSwiper", {
 });
 // enginesslider
 
+// enginesslider
+var swiper = new Swiper(".servicesSwiper", {
+    spaceBetween: 10,
+    pagination: {
+        el: ".services-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        280: {
+            slidesPerView: 1.20,
+            spaceBetween: 10,
+        },
+    },
+});
+// enginesslider
+
 // partnerslider
 var swiper = new Swiper(".reviewsSwiper", {
     spaceBetween: 10,

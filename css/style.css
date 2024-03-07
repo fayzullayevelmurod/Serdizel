@@ -410,6 +410,9 @@ header .header_contact span {
   gap: 20px;
   align-items: stretch;
 }
+.services .servicesSwiper {
+  display: none;
+}
 .services .big_card {
   flex: 1;
   display: flex;
@@ -1583,6 +1586,13 @@ footer .footer_contact address {
     margin-right: 100px;
     max-width: 280px;
   }
+  .services {
+    margin-bottom: 60px;
+  }
+  .services h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
   .work_cost h6 {
     font-size: 24px;
     line-height: 29px;
@@ -1748,6 +1758,56 @@ footer .footer_contact address {
   footer .main_container {
     flex-direction: column;
     gap: 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .services .services_in {
+    display: none;
+  }
+  .services .servicesSwiper {
+    display: block;
+  }
+  .services .servicesSwiper .services_cards {
+    gap: 10px;
+    height: 320px;
+  }
+  .services .servicesSwiper .services_cards img {
+    width: 52%;
+  }
+  .services .servicesSwiper .services_card p {
+    font-size: 14px;
+  }
+  .services .servicesSwiper .services_card a {
+    font-size: 14px;
+  }
+  .services .servicesSwiper .services_card .img_two {
+    bottom: 10px;
+    width: 45%;
+  }
+  .services .servicesSwiper .big_card {
+    height: 320px;
+  }
+  .services .servicesSwiper .big_card img {
+    width: 287px;
+  }
+  .services .servicesSwiper .big_card .services1 {
+    width: 160px;
+    margin-left: auto;
+  }
+  .services .servicesSwiper .services-pagination {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .services .servicesSwiper .services-pagination .swiper-pagination-bullet {
+    flex-shrink: 0;
+    width: 9px;
+    height: 9px;
+    background-color: rgb(217, 217, 217);
+  }
+  .services .servicesSwiper .services-pagination .swiper-pagination-bullet-active {
+    background-color: rgb(209, 38, 30);
   }
 }
 @media only screen and (max-width: 430px) {
