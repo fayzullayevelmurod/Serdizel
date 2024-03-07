@@ -295,6 +295,8 @@ header {
         }
 
         span {
+            user-select: none;
+            cursor: pointer;
             margin-right: 5px;
             display: block;
             color: rgb(28, 33, 44);

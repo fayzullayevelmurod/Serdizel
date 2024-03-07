@@ -239,6 +239,10 @@ header .header_contact a {
   line-height: 19px;
 }
 header .header_contact span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
   margin-right: 5px;
   display: block;
   color: rgb(28, 33, 44);
@@ -1487,6 +1491,9 @@ footer .footer_contact address {
     line-height: 29px;
     margin: 40px 0 20px 0;
   }
+  .engines_work .enginesSwiper {
+    overflow: visible;
+  }
   .engines_work .engines_card {
     height: 613px;
     display: flex;
@@ -1765,6 +1772,7 @@ footer .footer_contact address {
     display: none;
   }
   .services .servicesSwiper {
+    overflow: visible;
     display: block;
   }
   .services .servicesSwiper .services_cards {

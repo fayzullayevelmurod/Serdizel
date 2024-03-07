@@ -538,6 +538,10 @@
             margin: 40px 0 20px 0;
         }
 
+        .enginesSwiper {
+            overflow: visible;
+        }
+
         .engines_card {
             height: 613px;
             display: flex;
@@ -904,6 +908,7 @@
         }
         
         .servicesSwiper {
+            overflow: visible;
             display: block;
             .services_cards {
                 gap: 10px;
