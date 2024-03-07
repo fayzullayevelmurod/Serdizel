@@ -910,6 +910,7 @@ header .header_contact span {
   justify-content: center;
 }
 .engines_work .engines-pagination .swiper-pagination-bullet {
+  flex-shrink: 0;
   width: 9px;
   height: 9px;
   background-color: rgb(217, 217, 217);
